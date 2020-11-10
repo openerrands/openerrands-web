@@ -25,4 +25,4 @@ jobs:
           role-duration-seconds: 900
 
       - name: Copy files
-        run: aws s3 sync --delete . s3://openerrands.cloud
+        run: aws s3 sync --delete --exclude '.*' . s3://openerrands.cloud
