@@ -8,7 +8,8 @@
   <meta name="description" content="OpenErrands Information">
   <meta name="author" content="OpenErrands">
   <meta name="viewport" content="width=device-width">
-  
+
+  <link rel="icon" href="/assets/img/glyph-icon.png" />
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" crossorigin="anonymous">
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 
@@ -23,6 +24,26 @@
       top: 0;
       left: 0;
       position: fixed !important;
+    }
+    .splash {
+      /* absolute center .splash within .splash-container */
+      width: 80%;
+      height: 50%;
+      margin: auto;
+      position: absolute;
+      top: 100px; left: 0; bottom: 0; right: 0;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .splash-head {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      border: 3px solid white;
+      padding: 1em 1.6em;
+      font-weight: 100;
+      border-radius: 5px;
+      line-height: 1em;
     }
   </style>
 
@@ -40,7 +61,7 @@
 <body>
   <div class="splash-container">
     <div class="splash">
-        <h1 class="splash-head"><img src="//cdn.openerrands.com/web/images/headline.png" alt="OpenErrands"/></h1>
+        <h1 class="splash-head"><img src="assets/img/logo-horizontal.svg" alt="OpenErrands"/></h1>
         <p class="splash-subhead">
             Coming soon.
         </p>
