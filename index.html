@@ -9,44 +9,13 @@
   <meta name="author" content="OpenErrands">
   <meta name="viewport" content="width=device-width">
 
-  <link rel="icon" href="/assets/img/glyph-icon.png" />
+  <link rel="icon" href="assets/img/glyph-icon.png">
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" crossorigin="anonymous">
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 
-  <style type="text/css">
-    .splash-container {
-      background: #ccbbbb;
-      z-index: 1;
-      overflow: hidden;
-      /* The following styles are required for the "scroll-over" effect */
-      width: 100%;
-      height: 88%;
-      top: 0;
-      left: 0;
-      position: fixed !important;
-    }
-    .splash {
-      /* absolute center .splash within .splash-container */
-      width: 80%;
-      height: 50%;
-      margin: auto;
-      position: absolute;
-      top: 100px; left: 0; bottom: 0; right: 0;
-      text-align: center;
-      text-transform: uppercase;
-    }
-    .splash-head {
-      font-size: 20px;
-      font-weight: bold;
-      color: white;
-      border: 3px solid white;
-      padding: 1em 1.6em;
-      font-weight: 100;
-      border-radius: 5px;
-      line-height: 1em;
-    }
-  </style>
-
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" media="screen and (min-width: 48em)" href="assets/css/tablet.css">
+  <link rel="stylesheet" media="screen and (min-width: 78em)" href="assets/css/desktop.css">
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8E3NWH9FN"></script>
   <script>
@@ -59,19 +28,35 @@
 </head>
 
 <body>
+  <div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+      <a class="pure-menu-heading" href="">
+        <svg width="180" version="1.1" viewBox="0 0 270 65" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>OpenErrands</title>
+          <image x="0" y="0" width="270" height="65" preserveAspectRatio="xMinYMid meet" xlink:href="assets/img/wordmark-white.svg"/>
+        </svg>
+      </a>
+
+      <ul class="pure-menu-list">
+        <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Tour</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sign Up</a></li>
+      </ul>
+    </div>
+  </div>
+
   <div class="splash-container">
     <div class="splash">
         <h1 class="splash-head">
-          <svg width="100%" height="auto" version="1.1" viewBox="0 0 338.67 67.733" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <svg width="80%" version="1.1" viewBox="0 0 332 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <title>OpenErrands</title>
-            <g transform="translate(.80182)">
-              <image x="1.0583" y="1.4271e-6" width="67.733" height="67.733" preserveAspectRatio="xMinYMid meet" xlink:href="assets/img/glyph.svg"/>
-              <image x="65.071" y="3.175" width="270.93" height="67.733" preserveAspectRatio="xMaxYMid meet" xlink:href="assets/img/wordmark.svg"/>
-            </g>
+            <image x="0" y="0" width="60" height="60" preserveAspectRatio="xMaxYMid meet" xlink:href="assets/img/glyph.svg"/>
+            <image x="56" y="0" width="270" height="65" preserveAspectRatio="xMinYMid meet" xlink:href="assets/img/wordmark.svg"/>
           </svg>
         </h1>
         <p class="splash-subhead">
-            Coming soon.
+            Easy shared shopping lists. Automatically organized by product category. Open Source.
         </p>
     </div>
   </div>  

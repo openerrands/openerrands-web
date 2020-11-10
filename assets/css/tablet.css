@@ -1,0 +1,15 @@
+body {
+  font-size: 16px;
+}
+
+.splash {
+  width: 50%;
+  height: 50%;
+}
+.splash-head {
+  font-size: 250%;
+}
+
+.l-box-lrg {
+  border: none;
+}

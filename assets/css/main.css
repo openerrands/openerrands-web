@@ -1,0 +1,88 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.7em;
+  color: #7f8c8d;
+  font-size: 13px;
+}
+
+.pure-img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-menu {
+  padding: 0.5em;
+  text-align: left;
+  box-shadow: 0 4px 3px rgba(0,0,0, 0.15);
+  background: #226;
+}
+.pure-menu.pure-menu-fixed {
+  border-bottom: none;
+  z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+  color: white;
+  font-weight: 400;
+  font-size: 120%;
+  padding: 0 1em;
+}
+
+.home-menu ul {
+  float: right;
+  padding: 0.25em 0em;
+}
+
+.home-menu .pure-menu-selected a {
+  color: #fff;
+  background: #448;
+}
+
+.home-menu a {
+  color: #fff;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+  background: #448;
+}
+.home-menu li a:visited {
+  color: #fff !important;
+}
+
+.splash-container {
+  background: #bcb;
+  z-index: 1;
+  overflow: hidden;
+  width: 100%;
+  height: 88%;
+  top: 0;
+  left: 0;
+  position: fixed !important;
+}
+.splash {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 100px; left: 0; bottom: 0; right: 0;
+  text-align: center;
+}
+.splash-head {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: 3px solid white;
+  padding: 1em 1.6em;
+  font-weight: 100;
+  border-radius: 5px;
+  line-height: 1em;
+}
+.splash-subhead {
+  color: #222266;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
